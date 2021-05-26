@@ -14,3 +14,13 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+:man_student: I’m currently working on my projects, learning HTML, CSS and Java! 
+
+You can see more of my information here: https://www.obreve.com.br/ds/felipebonadio
+
+or in my Linked In: https://www.linkedin.com/in/felipe-chagas-bonadio-38a24464/
+
+⚡ Fun fact: I am Psychologist with two postgraduate degrees, the first in traffic psychology and the second in organizational psychology.
+
+:telephone: Feel free to talk to me about what you need, I will reply as soon as possible!
