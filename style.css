@@ -85,9 +85,8 @@ a{
     margin: 5px;
     padding: 5px
 }
-.circulo{
-    border: 3px solid black;
-    border-radius: 50%;
+.foto__perfil{
+    border-radius: 10%;
     margin: auto;
    }
 
@@ -95,3 +94,38 @@ a{
     text-align: justify;
 }
 
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+.icone{
+    max-width: 30px;
+    max-height: 30px;
+}
+.teste{
+    border:1px solid red;
+}
+.linkedin{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gmail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.github{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.whats{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
