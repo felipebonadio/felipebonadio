@@ -8,8 +8,9 @@ html,body{
     padding:0px;
 }
 a{
-    color: crimson;
+    /*color: crimson;*/
     font-weight: bold;
+    text-decoration: none;
 }
 @media(max-width:530px){
     .colunas{
@@ -43,6 +44,12 @@ a{
         width: auto;
         margin:auto;
         padding: 5px;
+    }
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
 }
 @media(min-width:531px){
@@ -79,6 +86,12 @@ a{
         margin:auto;
         padding: 10px;
     }
+    .rodape{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
 
 .conteudo{
@@ -94,21 +107,11 @@ a{
     text-align: justify;
 }
 
-.rodape{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    text-decoration: none;
-}
 .icone{
     max-width: 30px;
     max-height: 30px;
 }
-.teste{
-    border:1px solid red;
-}
+
 .linkedin{
     display: flex;
     justify-content: space-around;
