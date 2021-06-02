@@ -19,8 +19,7 @@
 
 <body>
     <header>
-        
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fonte">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark fonte">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="Img/icone.png" alt="" width="30" height="30" class="d-inline-block align-text-center">
@@ -34,19 +33,22 @@
                     <a class="nav-link"  href="#quem">Quem sou eu?</a>
                   </li>
                   <li class="nav-item">
+                    <a class="nav-link"  href="#projeto">Projetos</a>
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link" href="#resumo">Resumo Profissional</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#formacao">Formação Acadêmica</a>
+                    <a class="nav-link" href="#formacao">Formação</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#exp">Experiência profissional</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#curso">Cursos e aperfeiçoamento</a>
+                    <a class="nav-link" href="#curso">Cursos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#habilidade">Habilidades e competências</a>
+                    <a class="nav-link" href="#habilidade">Habilidades</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -97,7 +99,50 @@
                 </h3>
                 </div>
                 <h1>
-                    <p id = "resumo" class = "titulos">Resumo Profisional</p>
+                    <p id = "projeto" class = "borda titulos">Projetos</p>
+                </h1>
+               
+                <div id="carouselExampleDark" class="carousel carousel-dark slide w-75 m-auto" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="5000">
+                        <a href="https://github.com/felipebonadio/projetoJokempo" target="_blank"><img src="Img/appJokempo.jpg" class="d-block w-100" alt="..."></a>
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="5000">
+                        <a href="https://github.com/felipebonadio/siteInstagram" target="_blank"><img src="Img/siteInstagran.jpg" class="d-block w-100" alt="..."></a>
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="5000">
+                        <a href="https://github.com/felipebonadio/siteNetflix" target="_blank"><img src="Img/siteNetflix.jpg" class="d-block w-100" alt="..."></a>
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="5000">
+                        <a href="https://github.com/felipebonadio/jogoCobrinha" target="_blank"><img src="Img/jogoCobrinha.jpg" class="d-block w-100" alt="..."></a>
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Próximo</span>
+                    </button>
+                  </div>
+
+                <h1>
+                    <p id = "resumo" class = "borda titulos">Resumo Profisional</p>
                 </h1>
                 <h3>
                     <p>Experiência de mais de cinco anos na área da saúde e educação, atuando diretamente com o público
@@ -127,7 +172,7 @@
                     </ul>
                 </h3>
                 <h1>
-                    <p id="formacao" class="titulos">Formação Acadêmica</p>
+                    <p id="formacao" class="borda titulos">Formação Acadêmica</p>
                 </h1>
                 <h3>
                     <ul>
@@ -149,9 +194,9 @@
                     </li>
                 </h3>
                 <h1>
-                    <p id="exp" class="titulos">Experiência profissional</p>
+                    <p id="exp" class="borda titulos">Experiência profissional</p>
                 </h1>
-                <h3 class ="just">
+                <h3 class ="just conteudo">
                     <p> Casa da Criança de Barra Bonita – Seção Andorinha (2015 – atual)</p>
                     <p> Cargo: Psicólogo</p>
                     <p> Principais atividades: Responsável pela área de Recrutamento e Seleção, realizando entrevistas
@@ -165,21 +210,23 @@
                         características identificadas ao indivíduo, responsável e/ou solicitante.</p>
                 </h3>
                 <h1>
-                    <p id="curso" class="titulos">Cursos de aperfeiçoamento</p>
+                    <p id="curso" class="borda titulos">Cursos de aperfeiçoamento</p>
                 </h1>
                 <h3>
                     <ul>
-                        <li><p>Desenvolvimento Android (Android Studio) Em Java – Udemy, em andamento.</p></li>
-                        <li><p>Fundamentos de Lógica de Programação – Fundação Bradesco / Escola Virtual, 2021.</p></li>
-                        <li><p>Introdução à Programação Orientada a Objetos – Fundação Bradesco / Escola Virtual, 2021.</p></li>
-                        <li><p>Linguagem de Modelagem Unificada (UML) – Fundação Bradesco / Escola Virtual, 2021.</p></li>
-                        <li><p>Ética no Desenvolvimento de Sistemas – Fundação Bradesco / Escola Virtual, 2021.</p></li>
-                        <li><p>Curso de Auxiliar Administrativo – Qualy Up, 2019.</p></li>
-                        <li><p>Informática / MS Office – Compu Informática, 2001.</p></li>
+                      <li><p>HTML Web Developer – Digital Innovation One, 2021.</p></li>
+                      <li><p>Programação para internet com JavaScript – Digital Innovation One, 2021. </p></li>
+                      <li><p>Introdução a criação de websites com HTML5 e CSS3 – Digital Innovation One, 2021.</p></li>
+                      <li><p>Introdução ao Git e ao GitHub – Digital Innovation One, 2021.</p></li>
+                      <li><p>Fundamentos de Lógica de Programação – Fundação Bradesco / Escola Virtual, 2021.</p></li>
+                      <li><p>Introdução à Programação Orientada a Objetos – Fundação Bradesco / Escola Virtual, 2021.</p></li>
+                      <li><p>Linguagem de Modelagem Unificada (UML) – Fundação Bradesco / Escola Virtual, 2021.</p></li>
+                      <li><p>Ética no Desenvolvimento de Sistemas – Fundação Bradesco / Escola Virtual, 2021.</p></li>
+                      <li><p>Curso de Auxiliar Administrativo – Qualy Up, 2019.</p></li>
                     </ul>
                 </h3>
                 <p>
-                <h1 id="habilidade" class="titulos">Habilidades e competências</h1>
+                <h1 id="habilidade" class="borda titulos">Habilidades e competências</h1>
                 </p>
                 <h3>
                     <ul>
@@ -187,7 +234,7 @@
                        <li><p>Domínio como usuário do Windows, Word, Excel, Power Point e Internet.</p></li>
                        <li><p>Conhecimento intermediário em hardware.</p></li>
                        <li><p>Experiência e facilidade em trabalho em equipe.</p></li>
-                       <li><p>Comunicação interpessoal</p></li>
+                       <li><p>Habilidade em comunicação interpessoal.</p></li>
                     </ul>
                 </h3>
             </header>
