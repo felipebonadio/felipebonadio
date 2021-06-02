@@ -2,7 +2,6 @@ html,body{
     background-color:gray;
     max-width:100%;
     max-height:100%;
-    margin:0px;
     border:0px;
     padding:0px;
     font-size: 12px;
@@ -12,6 +11,13 @@ a{
     font-weight: bold;
     text-decoration: none;
 }
+
+header h1{
+    margin: auto !important;
+    width: auto;
+    height: auto;
+}
+
 .fonte{
     font-family: 'Inconsolata', monospace;
     font-size: 14.5px;
@@ -46,6 +52,7 @@ a{
         border-radius: 0px 20px 0px 20px;
         align-content: center;
         text-align: center;
+        margin: auto;
     }
     .titulos{
         color: white;
@@ -53,7 +60,13 @@ a{
         font-weight: bold;
         align-content: center;
         width: auto;
-        margin:auto !important;
+        padding: 5px;
+    }
+    .subtitulo{
+        color: white;
+        font-size: 15pt;
+        font-weight: bold !important;
+        align-content: center;
         padding: 5px;
     }
    
@@ -84,6 +97,7 @@ a{
         border-radius: 0px 20px 0px 20px;
         align-content: center;
         text-align: center;
+        margin: auto;
     }
     .titulos{
         color: white;
@@ -95,12 +109,21 @@ a{
         padding: 10px;
         justify-content: center;
     }
-  
+    .subtitulo{
+    color: white;
+    font-size: 25pt;
+    font-weight: bold;
+    align-content: center;
+    padding: 5px;
+    }
 }
 
 .conteudo{
-    margin: 5px;
-    padding: 15px
+    margin: auto;
+    padding: 15px;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
 }
 .foto__perfil{
     border-radius: 10%;
@@ -110,4 +133,3 @@ a{
 .just{
     text-align: justify;
 }
-
