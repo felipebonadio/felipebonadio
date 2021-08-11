@@ -15,11 +15,9 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-:man_student: I’m currently working on my projects, learning HTML, CSS and Java! 
+:man_student: I’m currently working on my projects, learning HTML, CSS, Java and Angular! 
 
-You can see more of my information here: https://www.obreve.com.br/ds/felipebonadio
-
-or in my Linked In: https://www.linkedin.com/in/felipe-chagas-bonadio-38a24464/
+You can see more of my information: https://www.linkedin.com/in/felipe-chagas-bonadio-38a24464/
 
 ⚡ Fun fact: I am Psychologist with two postgraduate degrees, the first in traffic psychology and the second in organizational psychology.
 
