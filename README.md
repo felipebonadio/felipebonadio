@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 :man_student: I’m currently working on my projects, learning HTML, CSS, Java and Angular! 
 
-You can see more of my information: https://www.linkedin.com/in/felipe-chagas-bonadio-38a24464/
+You can see more of my information: https://www.linkedin.com/in/felipe-chagas-bonadio/
 
 ⚡ Fun fact: I am Psychologist with two postgraduate degrees, the first in traffic psychology and the second in organizational psychology.
 
